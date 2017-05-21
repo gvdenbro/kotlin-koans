@@ -16,10 +16,10 @@ fun todoTask3(): Nothing = TODO(
 
 fun foo(name: String, number: Number = 42, toUpperCase: Boolean = false): String {
     return if (toUpperCase) {
-        name.toUpperCase() + number
+        name.toUpperCase()
     } else {
-        name + number
-    }
+        name
+    } + number
 }
 
 fun task3(): String {
